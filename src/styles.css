@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&display=swap');
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.bitcount-title {
+  font-family: "Bitcount", system-ui !important;
+  font-optical-sizing: auto !important;
+  font-size: 80px !important;
+  font-weight: 2 !important;
+  font-style: normal !important;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
